@@ -101,9 +101,9 @@ def histolab_func():
         scorer=CellularityScorer(),
         tile_size=(224, 224),
         n_tiles=200,
-        level=0,
+        level=1,
         check_tissue=True,
-        tissue_percent=90.0,
+        tissue_percent=75.0,
         pixel_overlap=0,  # default
         prefix="scored/",  # save tiles in the "scored" subdirectory of slide's processed_path
         suffix=".png"  # default
